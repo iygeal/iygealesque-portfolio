@@ -14,10 +14,11 @@ export default function Home() {
         </p>
 
         <div className="flex gap-4">
-          <a
-            href="/projects"
-            className="px-6 py-3 bg-neutral-100 text-neutral-900 rounded-lg font-medium"
-          >
+        <a
+          href="/projects"
+          className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition text-white rounded-lg font-medium"
+        >
+
             View Projects
           </a>
 
@@ -35,7 +36,6 @@ export default function Home() {
         <div>Production deployments</div>
         <div>REST APIs & databases</div>
         <div>Render • Vercel • Cloud services</div>
-        <h1 className="text-6xl font-bold text-red-500">Tailwind is alive</h1>
       </div>
     </section>
   );
