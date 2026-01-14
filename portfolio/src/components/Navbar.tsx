@@ -2,19 +2,27 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <header className="w-full border-b border-neutral-800">
+    <header className="w-full border-b border-slate-800">
       <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
         {/* Brand */}
-        <Link href="/" className="text-lg font-semibold text-neutral-100">
-          Iygeal.dev
+        <Link href="/" className="text-lg font-semibold tracking-tight">
+          <span className="text-slate-100">Iygeal</span>
+          <span className="text-blue-400">.dev</span>
         </Link>
 
         {/* Navigation */}
-        <nav className="flex gap-6 text-sm text-neutral-400">
-          <Link href="/projects" className="hover:text-neutral-100">
+        <nav className="flex items-center gap-8 text-sm">
+          <Link
+            href="/projects"
+            className="text-slate-400 hover:text-slate-100 transition"
+          >
             Projects
           </Link>
-          <Link href="/contact" className="hover:text-neutral-100">
+
+          <Link
+            href="/contact"
+            className="text-slate-400 hover:text-slate-100 transition"
+          >
             Contact
           </Link>
         </nav>
