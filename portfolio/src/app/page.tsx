@@ -4,7 +4,7 @@ export default function Home() {
       {/* Hero */}
       <div className="space-y-6">
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-          Backend engineer building reliable, production-ready systems.
+          Backend Engineer building reliable, production-ready systems.
         </h1>
 
         <p className="text-lg text-neutral-400 max-w-3xl">

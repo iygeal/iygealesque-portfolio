@@ -6,7 +6,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-5 flex items-center justify-between">
         {/* Brand */}
         <Link href="/" className="text-lg font-semibold tracking-tight">
-          <span className="text-slate-100">Iygeal</span>
+          <span className="text-slate-100">IYGEAL</span>
           <span className="text-blue-400">.dev</span>
         </Link>
 
