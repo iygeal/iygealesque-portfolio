@@ -4,21 +4,21 @@ export default function Home() {
       {/* Hero */}
       <div className="space-y-6">
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-          I am Iygeal Anozie, a Backend Engineer building reliable, production-ready systems.
+          I am Iygeal Anozie, a Backend Engineer building reliable,
+          production-ready systems.
         </h1>
 
         <p className="text-lg text-neutral-400 max-w-3xl">
-          I design, build, and deploy backend APIs and data-driven applications
-          using Django, Flask, Express/TypeScript, SQL, NoSQL, and modern cloud
-          platforms.
+          I design, build, and deploy scalable backend APIs and data-driven
+          applications using Django, Flask, Express, SQL and NoSQL databases,
+          and modern cloud platforms.
         </p>
 
         <div className="flex gap-4">
-        <a
-          href="/projects"
-          className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition text-white rounded-lg font-medium"
-        >
-
+          <a
+            href="/projects"
+            className="px-6 py-3 bg-blue-500 hover:bg-blue-600 transition text-white rounded-lg font-medium"
+          >
             View Projects
           </a>
 
