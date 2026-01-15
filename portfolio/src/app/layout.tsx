@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: "Iygeal Anozie | Portfolio",
+  title: "IYGEAL.dev | Portfolio",
   description:
     "Backend engineer building production-ready systems with Django, Express, and PostgreSQL.",
 };

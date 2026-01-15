@@ -5,7 +5,7 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Iygeal Anozie. Backend Engineer.</p>
 
         <p className="text-slate-600">
-          Django · Express · PostgreSQL · Cloud Deployments
+          Django · Express · SQL (PostgreSQL & MySQL) · NoSQL (MongoDB) · Cloud Deployments
         </p>
       </div>
     </footer>

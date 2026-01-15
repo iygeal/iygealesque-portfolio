@@ -3,11 +3,9 @@ export default function ProjectsPage() {
     <section className="space-y-16">
       {/* Page Header */}
       <div className="space-y-4 max-w-3xl">
-        <h1 className="text-3xl md:text-4xl font-semibold">
-          Selected Projects
-        </h1>
+        <h1 className="text-3xl md:text-4xl font-bold">Selected Projects</h1>
 
-        <p className="text-slate-400">
+        <p className="text-slate-300">
           Real-world backend and fullstack applications designed, deployed, and
           maintained in production environments.
         </p>
@@ -16,51 +14,70 @@ export default function ProjectsPage() {
       {/* Projects List */}
       <div className="space-y-12">
         {/* RightsPlace */}
-        <div className="border border-slate-800 rounded-xl p-8 space-y-6">
-          <h2 className="text-2xl font-semibold">RightsPlace</h2>
+        <div className="bg-slate-900/60 border border-slate-800 rounded-xl p-8 space-y-6 transition hover:border-slate-700">
+          <div className="space-y-2">
+            <h2 className="text-2xl font-semibold">RightsPlace</h2>
+            <p className="text-sm text-emerald-400">
+              Production-ready • Deployed • CS50 Capstone (Verified)
+            </p>
+          </div>
 
-          <p className="text-slate-400 max-w-3xl">
-            A human rights violation reporting platform that allows users to
-            securely submit, track, and manage incident reports. Built with a
-            focus on data integrity, media handling, and production-ready
-            deployment.
+          <p className="text-slate-300 max-w-3xl">
+            RightsPlace is a production-grade human rights violation reporting
+            platform designed to securely collect, store, and manage sensitive
+            incident data. The system focuses on reliability, data integrity,
+            and scalable media handling in real-world deployment conditions.
           </p>
 
-          {/* Highlights */}
+          {/* Responsibilities / System Design */}
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-slate-400">
-            <li>• Django backend with PostgreSQL (Neon)</li>
-            <li>• Cloudinary media storage and processing</li>
-            <li>• Secure form handling and data validation</li>
-            <li>• Production deployment on Render</li>
+            <li>• Designed and implemented Django backend architecture</li>
+            <li>
+              • Integrated PostgreSQL (Neon) with migrations and admin workflows
+            </li>
+            <li>
+              • Implemented Cloudinary-based media storage and optimization
+            </li>
+            <li>• Deployed and managed production environment on Render</li>
           </ul>
 
           {/* Tech Stack */}
-          <div className="flex flex-wrap gap-2 text-xs">
-            <span className="px-3 py-1 border border-slate-700 rounded-full">
-              Django
-            </span>
-            <span className="px-3 py-1 border border-slate-700 rounded-full">
-              PostgreSQL
-            </span>
-            <span className="px-3 py-1 border border-slate-700 rounded-full">
-              Cloudinary
-            </span>
-            <span className="px-3 py-1 border border-slate-700 rounded-full">
-              Render
-            </span>
+          <div className="space-y-2">
+            <p className="text-sm text-blue-300">Tool Stack:</p>
+            <div className="flex flex-wrap gap-2 text-xs">
+              {[
+                'Django',
+                'PostgreSQL (Neon)',
+                'JavaScript',
+                'Bootstrap',
+                'Cloudinary',
+                'Render',
+              ].map((tech) => (
+                <span
+                  key={tech}
+                  className="px-3 py-1 border border-slate-700 rounded-full text-slate-300"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
 
           {/* Links */}
-          <div className="flex gap-4 text-sm">
+          <div className="flex gap-6 text-sm">
             <a
-              href="#"
+              href="https://rightsplace.onrender.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300 transition"
             >
-              Live Demo
+              Live Application
             </a>
 
             <a
-              href="#"
+              href="https://github.com/iygeal/rightsplace"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-slate-400 hover:text-slate-200 transition"
             >
               Source Code

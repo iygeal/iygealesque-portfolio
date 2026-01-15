@@ -4,12 +4,12 @@ export default function Home() {
       {/* Hero */}
       <div className="space-y-6">
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-          Backend Engineer building reliable, production-ready systems.
+          I am Iygeal Anozie, a Backend Engineer building reliable, production-ready systems.
         </h1>
 
         <p className="text-lg text-neutral-400 max-w-3xl">
           I design, build, and deploy backend APIs and data-driven applications
-          using Django, Express/TypeScript, PostgreSQL, and modern cloud
+          using Django, Flask, Express/TypeScript, SQL, NoSQL, and modern cloud
           platforms.
         </p>
 
