@@ -35,25 +35,22 @@ export default function ProjectsPage() {
           </div>
 
           <p className="text-slate-300 max-w-3xl">
-            RightsPlace is a production-grade human rights violation reporting
-            platform designed to securely collect, store, and manage sensitive
-            incident data. The system focuses on reliability, data integrity,
-            and scalable media handling in real-world deployment conditions.
+            RightsPlace is a production-grade human rights incident reporting platform built to securely collect, store, and manage sensitive data, with a focus on reliability, data integrity, and scalable media handling.
           </p>
 
           {/* Responsibilities / System Design */}
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-blue-200/80">
             <li className="leading-relaxed">
-              • Designed and implemented Django backend architecture
+              • Designed and implemented the core Django backend
             </li>
             <li className="leading-relaxed">
               • Integrated PostgreSQL (Neon) with migrations and admin workflows
             </li>
             <li className="leading-relaxed">
-              • Implemented Cloudinary-based media storage and optimization
+              • Implemented scalable media storage using Cloudinary
             </li>
             <li className="leading-relaxed">
-              • Deployed and managed production environment on Render
+              • Deployed and managed the production environment on Render
             </li>
           </ul>
 
@@ -123,10 +120,7 @@ export default function ProjectsPage() {
           </div>
 
           <p className="text-slate-300 max-w-3xl">
-            A mentorship matching system designed to connect mentors and mentees
-            based on structured criteria. The backend exposes a RESTful API
-            consumed by a React frontend, with a focus on clean data modeling,
-            scalability, and deployment separation.
+            An API-driven mentorship matching platform featuring a TypeScript/Express backend and a React frontend, architected for clean data modeling, scalability, and separated deployments.
           </p>
 
           {/* Responsibilities */}
@@ -138,7 +132,7 @@ export default function ProjectsPage() {
               • Built RESTful APIs for matching logic and user workflows
             </li>
             <li className="leading-relaxed">
-              • Modeled application data using MongoDB
+              • Designed and modeled application data using MongoDB and Mongoose
             </li>
             <li className="leading-relaxed">
               • Deployed backend and frontend independently (Render & Vercel)
@@ -199,9 +193,7 @@ export default function ProjectsPage() {
           </div>
 
           <p className="text-slate-300 max-w-3xl">
-            PayFlow is a RESTful API that simulates a digital wallet system,
-            supporting user authentication, wallet funding, peer-to-peer
-            transfers, and transaction history. The system is designed with a
+            PayFlow is a RESTful digital wallet API simulating real-world financial workflows, including authentication, wallet funding, peer-to-peer transfers, and transaction history. The system is designed with a
             focus on secure authentication, transactional workflows, and clear
             API documentation.
           </p>
@@ -210,7 +202,7 @@ export default function ProjectsPage() {
           <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-blue-200/80">
             <li className="leading-relaxed">
               • Designed RESTful API architecture for wallet and transaction
-              flows
+              workflows
             </li>
             <li className="leading-relaxed">
               • Implemented JWT-based authentication and secure password hashing
