@@ -37,7 +37,7 @@ export default function ProjectCard({ children }: ProjectCardProps) {
           "bg-slate-900/60",
           "border border-slate-800",
           "rounded-xl",
-          "p-8",
+          "p-5 sm:p-8",
           "space-y-6",
           "transition",
         )}

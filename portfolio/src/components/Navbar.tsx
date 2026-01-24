@@ -73,7 +73,7 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {open && (
         <div className="md:hidden border-t border-slate-800 bg-slate-950">
-          <nav className="flex flex-col px-4 py-4 space-y-4 text-sm">
+          <nav className="flex flex-col items-center px-4 py-4 space-y-4 text-sm text-center">
             {navItems.map(({ name, href }) => {
               const isActive = pathname === href;
 
@@ -85,7 +85,7 @@ export default function Navbar() {
                   className={clsx(
                     "transition",
                     isActive
-                      ? "text-slate-100"
+                      ? "text-slate-100 font-medium"
                       : "text-slate-400 hover:text-slate-100",
                   )}
                 >

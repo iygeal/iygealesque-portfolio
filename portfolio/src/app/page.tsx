@@ -1,4 +1,5 @@
 import PageWrapper from "@/components/PageWrapper";
+
 export default function Home() {
   return (
     <PageWrapper>
@@ -16,17 +17,18 @@ export default function Home() {
             modern cloud platforms.
           </p>
 
-          <div className="flex flex-wrap gap-4">
+          {/* Buttons */}
+          <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="/projects"
               className="
-              px-6 py-3 bg-blue-500
-              hover:bg-blue-600
-              transition-all duration-200
-              text-white rounded-lg font-medium
-              hover:-translate-y-0.5
-              active:translate-y-0
-            "
+                px-6 py-3 bg-blue-500
+                hover:bg-blue-600
+                transition-all duration-200
+                text-white rounded-lg font-medium
+                hover:-translate-y-0.5
+                active:translate-y-0
+              "
             >
               View Projects
             </a>
@@ -34,24 +36,25 @@ export default function Home() {
             <a
               href="/contact"
               className="
-              px-6 py-3 border border-slate-700
-              rounded-lg text-slate-200
-              transition-all duration-200
-              hover:border-slate-600 hover:text-white"
+                px-6 py-3 border border-slate-700
+                rounded-lg text-slate-200
+                transition-all duration-200
+                hover:border-slate-600 hover:text-white
+              "
             >
               Work With Me
             </a>
 
-            {/* CV button */}
             <a
               href="https://www.canva.com/design/DAGcBJB72j0/hkZ5flPylU6SOD31xAu_5w/edit?utm_content=DAGcBJB72j0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
               target="_blank"
               rel="noopener noreferrer"
               className="
-              px-6 py-3 border border-slate-700
-              rounded-lg text-slate-200
-              transition-all duration-200
-              hover:border-slate-600 hover:text-white"
+                px-6 py-3 border border-slate-700
+                rounded-lg text-slate-200
+                transition-all duration-200
+                hover:border-slate-600 hover:text-white
+              "
             >
               View CV
             </a>
@@ -73,7 +76,7 @@ export default function Home() {
 
             <div className="space-y-2">
               <p className="font-medium text-slate-100">Databases</p>
-              <p>PostgreSQL, MySQL, MongoDB </p>
+              <p>PostgreSQL, MySQL, MongoDB</p>
             </div>
 
             <div className="space-y-2">
@@ -86,7 +89,7 @@ export default function Home() {
         </div>
 
         {/* Trust Signals */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-400">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm text-slate-400 text-center md:text-left">
           <div>Production deployments</div>
           <div>API-first system design</div>
           <div>CS50 & ALX-trained engineer</div>
