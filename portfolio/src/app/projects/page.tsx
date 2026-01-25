@@ -20,8 +20,9 @@ export default function ProjectsPage() {
         <div className="space-y-12">
           {/* RightsPlace */}
           <ProjectCard>
+            <div className="-my-6 sm:my-2">
             {/* Project Image */}
-            <div className="relative w-full h-48 md:h-60 overflow-hidden rounded-lg border border-slate-700">
+            <div className="relative w-full h-48 md:h-60 overflow-hidden rounded-lg hover: border border-slate-700 border-transparent sm:border-slate-700">
               <Image
                 src="/projects/rightsplace-home.png"
                 alt="RightsPlace homepage"
@@ -32,6 +33,7 @@ export default function ProjectsPage() {
                 "
                 priority
               />
+            </div>
             </div>
 
             <div className="space-y-2">
@@ -110,17 +112,19 @@ export default function ProjectsPage() {
 
           {/* Mentorship Matching Platform */}
           <ProjectCard>
-            <div className="relative w-full h-48 md:h-60 overflow-hidden rounded-lg border border-slate-700">
-              <Image
-                src="/projects/mentorship-home.png"
-                alt="Mentorship Matching Platform homepage"
-                fill
-                className="
+            <div className="-my-12 sm:my-4">
+              <div className="relative w-full h-48 md:h-60 overflow-hidden rounded-lg border border-slate-700 border-transparent sm:border-slate-700">
+                <Image
+                  src="/projects/mentorship-home.png"
+                  alt="Mentorship Matching Platform homepage"
+                  fill
+                  className="
                   object-contain md:object-cover
                   transition-all duration-300 ease-out
                 "
-                priority
-              />
+                  priority
+                />
+              </div>
             </div>
 
             <div className="space-y-2">
