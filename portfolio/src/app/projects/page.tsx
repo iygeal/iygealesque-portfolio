@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function ProjectsPage() {
   return (
     <PageWrapper>
-      <section className="space-y-16">
+      <section className="space-y-14">
         {/* Page Header */}
         <div className="space-y-4 max-w-3xl">
           <h1 className="text-3xl md:text-4xl font-bold">Selected Projects</h1>

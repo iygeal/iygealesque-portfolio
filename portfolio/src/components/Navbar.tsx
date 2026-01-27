@@ -18,7 +18,7 @@ export default function Navbar() {
 
   return (
     <header className="w-full border-b border-slate-800">
-      <div className="max-w-6xl mx-auto px-4 md:px-6 py-5 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-4 md:px-6 py-3 flex items-center justify-between">
         {/* Brand */}
         <Link
           href="/"
