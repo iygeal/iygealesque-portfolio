@@ -22,7 +22,7 @@ export default function ProjectsPage() {
           <ProjectCard>
             <div className="-my-6 sm:my-2">
             {/* Project Image */}
-            <div className="relative w-full h-48 md:h-60 overflow-hidden rounded-lg hover: border border-slate-700 border-transparent sm:border-slate-700">
+            <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-lg hover: border border-slate-700 border-transparent sm:border-slate-700">
               <Image
                 src="/projects/rightsplace-home.png"
                 alt="RightsPlace homepage"
@@ -113,7 +113,7 @@ export default function ProjectsPage() {
           {/* Mentorship Matching Platform */}
           <ProjectCard>
             <div className="-my-12 sm:my-4">
-              <div className="relative w-full h-48 md:h-60 overflow-hidden rounded-lg border border-slate-700 border-transparent sm:border-slate-700">
+              <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-lg border border-slate-700 border-transparent sm:border-slate-700">
                 <Image
                   src="/projects/mentorship-home.png"
                   alt="Mentorship Matching Platform homepage"
