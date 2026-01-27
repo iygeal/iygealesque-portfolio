@@ -38,8 +38,11 @@ export default function RootLayout({
 
         {/* App content */}
         <div className="relative z-10">
-          <Navbar />
-          <main className="max-w-6xl mx-auto px-6 py-16">{children}</main>
+          <header className="sticky top-0 z-50 bg-slate-950/80 backdrop-blur border-b border-slate-800">
+            <Navbar />
+          </header>
+
+          <main className="px-6 pt-10 md:pt-0">{children}</main>
           <Footer />
         </div>
       </body>
