@@ -43,12 +43,18 @@ export default function About() {
         <div className="space-y-6">
           <h2 className="text-xl font-semibold">How I Work</h2>
 
-          <ul className="space-y-3 text-slate-300">
-            <li>• I design systems with clarity before writing code</li>
-            <li>• I prioritize maintainability, security, and scalability</li>
-            <li>• I communicate clearly and set realistic expectations</li>
-            <li>
-              • I prefer simple, robust solutions over unnecessary complexity
+          <ul className="space-y-3 pl-5 list-disc text-slate-300">
+            <li className="leading-relaxed">
+              I design systems with clarity before writing code
+            </li>
+            <li className="leading-relaxed">
+              I prioritize maintainability, security, and scalability
+            </li>
+            <li className="leading-relaxed">
+              I communicate clearly and set realistic expectations
+            </li>
+            <li className="leading-relaxed">
+              I prefer simple, robust solutions over unnecessary complexity
             </li>
           </ul>
 

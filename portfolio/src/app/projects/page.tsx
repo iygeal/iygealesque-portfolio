@@ -21,19 +21,20 @@ export default function ProjectsPage() {
           {/* RightsPlace */}
           <ProjectCard>
             <div className="-my-6 sm:my-2">
-            {/* Project Image */}
-            <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-lg hover: border border-slate-700 border-transparent sm:border-slate-700">
-              <Image
-                src="/projects/rightsplace-home.png"
-                alt="RightsPlace homepage"
-                fill
-                className="
+              {/* Project Image */}
+              <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-lg border border-transparent sm:border-slate-700">
+                <Image
+                  src="/projects/rightsplace-home.png"
+                  alt="RightsPlace homepage"
+                  fill
+                  className="
                   object-contain md:object-cover
-                  transition-all duration-300 ease-out
+                  transition-transform duration-300 ease-out
+                  md:hover:scale-[1.02]
                 "
-                priority
-              />
-            </div>
+                  priority
+                />
+              </div>
             </div>
 
             <div className="space-y-2">
@@ -71,12 +72,12 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  "Django",
-                  "PostgreSQL (Neon)",
-                  "JavaScript",
-                  "Bootstrap",
-                  "Cloudinary",
-                  "Render",
+                  'Django',
+                  'PostgreSQL (Neon)',
+                  'JavaScript',
+                  'Bootstrap',
+                  'Cloudinary',
+                  'Render',
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -113,14 +114,14 @@ export default function ProjectsPage() {
           {/* Mentorship Matching Platform */}
           <ProjectCard>
             <div className="-my-12 sm:my-4">
-              <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-lg border border-slate-700 border-transparent sm:border-slate-700">
+              <div className="relative w-full h-48 md:h-64 overflow-hidden rounded-lg border border-transparent sm:border-slate-700">
                 <Image
                   src="/projects/mentorship-home.png"
                   alt="Mentorship Matching Platform homepage"
                   fill
-                  className="
-                  object-contain md:object-cover
-                  transition-all duration-300 ease-out
+                  className="object-contain md:object-cover
+                  transition-transform duration-300 ease-out
+                  md:hover:scale-[1.02]
                 "
                   priority
                 />
@@ -161,13 +162,13 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  "Express.js",
-                  "TypeScript",
-                  "MongoDB",
-                  "JWT",
-                  "React",
-                  "Render",
-                  "Vercel",
+                  'Express.js',
+                  'TypeScript',
+                  'MongoDB',
+                  'JWT',
+                  'React',
+                  'Render',
+                  'Vercel',
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -237,13 +238,13 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  "Node.js",
-                  "Express.js",
-                  "MongoDB",
-                  "JWT",
-                  "Bcrypt",
-                  "Postman",
-                  "Render",
+                  'Node.js',
+                  'Express.js',
+                  'MongoDB',
+                  'JWT',
+                  'Bcrypt',
+                  'Postman',
+                  'Render',
                 ].map((tech) => (
                   <span
                     key={tech}
