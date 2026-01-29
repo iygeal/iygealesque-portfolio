@@ -1,6 +1,8 @@
 import ProjectCard from "@/components/ProjectCard";
 import PageWrapper from "@/components/PageWrapper";
 import Image from "next/image";
+import { ExternalLink, Github, FileText } from 'lucide-react';
+
 
 export default function ProjectsPage() {
   return (
@@ -95,18 +97,23 @@ export default function ProjectsPage() {
                 href="https://rightsplace.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 transition"
+                title="Live Application"
+                className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition"
               >
-                Live Application
+                <ExternalLink size={16} />
+                <span className="sm:hidden">Live</span>
+                <span className="hidden sm:inline">Live</span>
               </a>
 
               <a
                 href="https://github.com/iygeal/rightsplace"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-slate-200 transition"
+                title="Source Code"
+                className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
-                Source Code
+                <Github size={16} />
+                <span className="hidden sm:inline">App Code</span>
               </a>
             </div>
           </ProjectCard>
@@ -179,24 +186,28 @@ export default function ProjectsPage() {
                 ))}
               </div>
             </div>
-
+            {/* LINKS */}
             <div className="flex flex-wrap gap-4 text-sm">
               <a
                 href="https://mentorship-by-iygeal.vercel.app"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 transition"
+                title="Live Application"
+                className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition"
               >
-                Live Application
+                <ExternalLink size={16} />
+                <span className="hidden sm:inline">Live</span>
               </a>
 
               <a
                 href="https://github.com/iygeal/mentorship-matching-platform"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-slate-200 transition"
+                title="Source Code"
+                className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
-                Source Code
+                <Github size={16} />
+                <span className="hidden sm:inline">App Code</span>
               </a>
             </div>
           </ProjectCard>
@@ -255,33 +266,39 @@ export default function ProjectsPage() {
                 ))}
               </div>
             </div>
-
+            {/* LINKS */}
             <div className="flex flex-wrap gap-4 text-sm">
               <a
                 href="https://payflow-fintech.onrender.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-400 hover:text-blue-300 transition"
+                title="API Base URL"
+                className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition"
               >
-                API Base URL
+                <ExternalLink size={16} />
+                <span className="hidden sm:inline">Live</span>
               </a>
 
               <a
                 href="https://documenter.getpostman.com/view/36820009/2sB2qgeJiF"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-slate-200 transition"
+                title="API Documentation"
+                className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
-                API Documentation
+                <FileText size={16} />
+                <span className="hidden sm:inline">Postman Docs</span>
               </a>
 
               <a
                 href="https://github.com/iygeal/payflow"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-slate-400 hover:text-slate-200 transition"
+                title="Source Code"
+                className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
-                Source Code
+                <Github size={16} />
+                <span className="hidden sm:inline">App Code</span>
               </a>
             </div>
           </ProjectCard>
