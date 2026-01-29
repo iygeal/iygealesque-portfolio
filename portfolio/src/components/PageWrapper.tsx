@@ -18,11 +18,11 @@ export default function PageWrapper({
   return (
     <motion.div
       initial={false} // prevents SSR mismatch
-      animate={mounted ? { opacity: 1, y: 0 } : {}}
+      animate={mounted ? { opacity: 1, y: 0 } : { opacity: 0, y: 12 }}
       transition={{ duration: 0.4, ease: 'easeOut' }}
       className={clsx(
         'max-w-6xl mx-auto px-4 sm:px-6 py-12',
-        mounted ? 'opacity-100' : 'opacity-0',
+        !mounted && 'pointer-events-none',
       )}
     >
       {children}
