@@ -291,8 +291,8 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <FileText size={16} />
-                <span className="sm:hidden">Docs</span>
-                <span className="hidden sm:inline">Postman Docs</span>
+                <span className="sm:hidden">API Docs</span>
+                <span className="hidden sm:inline">API Documentation</span>
               </a>
 
               <a

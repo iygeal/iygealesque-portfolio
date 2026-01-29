@@ -6,10 +6,12 @@ export default function Home() {
       <section className="space-y-16">
         {/* Hero */}
         <div className="space-y-6 max-w-4xl">
-          <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-            I am Iygeal Anozie, a Backend Engineer building reliable,
-            production-ready systems.
-          </h1>
+          <div className="max-w-[34ch] sm:max-w-none">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
+              I am Iygeal Anozie, a Backend Engineer building reliable,
+              production-ready systems.
+            </h1>
+          </div>
 
           <p className="text-lg text-slate-300 max-w-3xl">
             I design, build, and deploy scalable backend APIs and data-driven

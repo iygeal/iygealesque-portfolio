@@ -4,7 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import clsx from "clsx";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Terminal } from "lucide-react";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -18,14 +18,19 @@ export default function Navbar() {
 
   return (
     <header className="w-full border-b border-slate-800">
-      <div className="max-w-6xl mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
+      <div className="max-w-6xl mx-auto px-8 md:px-6 py-4 flex items-center justify-between">
         {/* Brand */}
         <Link
           href="/"
-          className="text-lg font-semibold tracking-tight hover:underline underline-offset-4"
+          className={clsx(
+            "inline-flex items-center gap-[2px]",
+            "text-lg font-semibold tracking-tight",
+            "hover:underline underline-offset-4",
+          )}
         >
-          <span className="text-slate-100">IYGEAL</span>
-          <span className="text-blue-400">.dev</span>
+          <Terminal className="w-5 h-5 text-white" />
+          <span className="text-slate-100 transition">IYGEAL</span>
+          <span className="text-blue-400 -ml-[-1px]">.dev</span>
         </Link>
 
         {/* Desktop Navigation */}
