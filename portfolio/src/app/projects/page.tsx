@@ -74,12 +74,12 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  'Django',
-                  'PostgreSQL (Neon)',
-                  'JavaScript',
-                  'Bootstrap',
-                  'Cloudinary',
-                  'Render',
+                  "Django",
+                  "PostgreSQL (Neon)",
+                  "JavaScript",
+                  "Bootstrap",
+                  "Cloudinary",
+                  "Render",
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -101,8 +101,8 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition"
               >
                 <ExternalLink size={16} />
-                <span className="sm:hidden">Live</span>
-                <span className="hidden sm:inline">Live</span>
+                <span className="sm:hidden">Live App</span>
+                <span className="hidden sm:inline">Live App</span>
               </a>
 
               <a
@@ -113,6 +113,7 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <Github size={16} />
+                <span className="sm:hidden">Code</span>
                 <span className="hidden sm:inline">App Code</span>
               </a>
             </div>
@@ -169,13 +170,13 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  'Express.js',
-                  'TypeScript',
-                  'MongoDB',
-                  'JWT',
-                  'React',
-                  'Render',
-                  'Vercel',
+                  "Express.js",
+                  "TypeScript",
+                  "MongoDB",
+                  "JWT",
+                  "React",
+                  "Render",
+                  "Vercel",
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -196,7 +197,8 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition"
               >
                 <ExternalLink size={16} />
-                <span className="hidden sm:inline">Live</span>
+                <span className="sm:hidden">Live App</span>
+                <span className="hidden sm:inline">Live App</span>
               </a>
 
               <a
@@ -207,6 +209,7 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <Github size={16} />
+                <span className="sm:hidden">Code</span>
                 <span className="hidden sm:inline">App Code</span>
               </a>
             </div>
@@ -249,13 +252,13 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  'Node.js',
-                  'Express.js',
-                  'MongoDB',
-                  'JWT',
-                  'Bcrypt',
-                  'Postman',
-                  'Render',
+                  "Node.js",
+                  "Express.js",
+                  "MongoDB",
+                  "JWT",
+                  "Bcrypt",
+                  "Postman",
+                  "Render",
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -276,6 +279,7 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-blue-400 hover:text-blue-300 transition"
               >
                 <ExternalLink size={16} />
+                <span className="sm:hidden">Live</span>
                 <span className="hidden sm:inline">Live</span>
               </a>
 
@@ -287,6 +291,7 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <FileText size={16} />
+                <span className="sm:hidden">Docs</span>
                 <span className="hidden sm:inline">Postman Docs</span>
               </a>
 
@@ -298,6 +303,7 @@ export default function ProjectsPage() {
                 className="flex items-center gap-1 text-slate-400 hover:text-slate-200 transition"
               >
                 <Github size={16} />
+                <span className="sm:hidden">Code</span>
                 <span className="hidden sm:inline">App Code</span>
               </a>
             </div>
