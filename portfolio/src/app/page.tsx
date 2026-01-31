@@ -8,7 +8,7 @@ export default function Home() {
         <div className="space-y-6 max-w-4xl">
           <div className="max-w-[34ch] sm:max-w-none">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight">
-            <span className="text-blue-600 mr-1.5">
+            <span className="text-blue-400 mr-1.5 font-bold">
               I am Iygeal Anozie,
             </span>
               <span>
