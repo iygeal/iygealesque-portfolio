@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata = {
+  metadataBase: new URL("https://iygeal.vercel.app"),
   title: "IYGEAL.dev | Backend Engineer",
   description: "Backend engineer building reliable, production-ready systems.",
 };
