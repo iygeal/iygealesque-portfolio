@@ -14,8 +14,11 @@ system design work, and deployment experience.
 - Clean, minimal UI focused on clarity
 
 ## Local Development
+```
+cd portfolio
 npm install
 npm run dev
+```
 
 ## Deployment
 Deployed on Vercel
