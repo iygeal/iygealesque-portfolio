@@ -10,7 +10,7 @@ export default function ProjectsPage() {
       <section className="space-y-14">
         {/* Page Header */}
         <div className="space-y-4 max-w-3xl">
-          <h1 className="text-3xl md:text-4xl font-bold">Selected Projects</h1>
+          <h1 className="text-3xl md:text-4xl font-bold">Projects</h1>
 
           <p className="text-slate-300">
             Production-ready backend and fullstack systems designed, deployed,
@@ -42,7 +42,7 @@ export default function ProjectsPage() {
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold">RightsPlace</h2>
               <p className="text-sm text-emerald-400">
-                Production-ready • Deployed • CS50 Capstone (Verified)
+                Production • Deployed • Secure Data Platform
               </p>
             </div>
 
@@ -74,12 +74,12 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  "Django",
-                  "PostgreSQL (Neon)",
-                  "JavaScript",
-                  "Bootstrap",
-                  "Cloudinary",
-                  "Render",
+                  'Django',
+                  'PostgreSQL (Neon)',
+                  'JavaScript',
+                  'Bootstrap',
+                  'Cloudinary',
+                  'Render',
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -141,7 +141,7 @@ export default function ProjectsPage() {
                 Mentorship Matching Platform
               </h2>
               <p className="text-sm text-emerald-400">
-                Production-ready • Deployed • API-driven
+                Production • Deployed • API-Driven Architecture
               </p>
             </div>
 
@@ -156,7 +156,8 @@ export default function ProjectsPage() {
                 Designed and implemented Express.js backend with TypeScript
               </li>
               <li className="leading-relaxed">
-                Built RESTful APIs for matching logic and user workflows
+                Designed RESTful APIs for mentorship requests, session booking,
+                and role-based workflows
               </li>
               <li className="leading-relaxed">
                 Designed and modeled application data using MongoDB and Mongoose
@@ -170,13 +171,13 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  "Express.js",
-                  "TypeScript",
-                  "MongoDB",
-                  "JWT",
-                  "React",
-                  "Render",
-                  "Vercel",
+                  'Express.js',
+                  'TypeScript',
+                  'MongoDB',
+                  'JWT',
+                  'React',
+                  'Render',
+                  'Vercel',
                 ].map((tech) => (
                   <span
                     key={tech}
@@ -220,7 +221,7 @@ export default function ProjectsPage() {
             <div className="space-y-2">
               <h2 className="text-2xl font-semibold">PayFlow</h2>
               <p className="text-sm text-emerald-400">
-                REST API • FinTech-style system • Production-deployed
+                Production • REST API • Financial Workflows
               </p>
             </div>
 
@@ -234,8 +235,8 @@ export default function ProjectsPage() {
 
             <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm text-blue-200/80 list-disc pl-4">
               <li className="leading-relaxed">
-                Designed RESTful API architecture for wallet and transaction
-                workflows
+                Designed RESTful API architecture for wallet funding, peer
+                transfers, and transactional consistency
               </li>
               <li className="leading-relaxed">
                 Implemented JWT-based authentication and secure password hashing
@@ -252,13 +253,13 @@ export default function ProjectsPage() {
               <p className="text-sm text-blue-300">Tool Stack:</p>
               <div className="flex flex-wrap gap-2 text-xs">
                 {[
-                  "Node.js",
-                  "Express.js",
-                  "MongoDB",
-                  "JWT",
-                  "Bcrypt",
-                  "Postman",
-                  "Render",
+                  'Node.js',
+                  'Express.js',
+                  'MongoDB',
+                  'JWT',
+                  'Bcrypt',
+                  'Postman',
+                  'Render',
                 ].map((tech) => (
                   <span
                     key={tech}
