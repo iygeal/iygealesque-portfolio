@@ -6,6 +6,9 @@ export const metadata = {
   metadataBase: new URL("https://iygeal.vercel.app"),
   title: "IYGEAL.dev | Backend Engineer",
   description: "Backend engineer building reliable, production-ready systems.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
