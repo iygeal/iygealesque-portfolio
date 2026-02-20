@@ -45,6 +45,7 @@ export default function About() {
                       rounded-2xl
                       object-cover
                       object-[50%_40%]
+                      priority
                     "
                   />
                 </div>

@@ -91,6 +91,7 @@ export default function Home() {
             rounded-2xl
             object-cover
             object-[50%_40%]
+            priority
           "
                   />
                 </div>
