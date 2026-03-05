@@ -15,7 +15,7 @@ export default function Home() {
                   I am Iygeal Anozie,
                 </span>
                 <span>
-                  a Backend Engineer building reliable, production-ready
+                  a unique Backend Engineer building reliable, production-ready
                   systems.
                 </span>
               </h1>
